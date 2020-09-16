@@ -1,0 +1,453 @@
+body{font-family:'mulish', arial, tahoma, serif, sans-serif, 'trebuchet ms', 'comic sans ms'}
+
+html{scroll-behavior:smooth}
+
+i[class="fas fa-arrow-alt-circle-up fa-2x"]
+{
+
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	color:#6f42c1;
+	display:none;
+	z-index:999;
+	cursor:pointer
+
+}
+
+/* Start Navbar */
+
+nav.bg-light{background-color:rgba(111, 66, 193, 0.1)!important; height:70px;}
+
+nav.fix
+{
+
+	background-color:#FFF !important;
+	z-index:999;
+	position:fixed;
+	top:0;
+	width:100%
+
+}
+
+nav.bg-light a.navbar-brand{font-size:22px}
+
+nav.bg-light button.navbar-toggler
+{border:medium none;color:#000}
+
+nav.bg-light button:focus{outline:medium none}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.active a, nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a:hover
+{color:#6f42c1}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item
+{margin-left:20px}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a
+{
+
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	transition:all .5s ease;
+
+}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item
+	{font-size:14px}
+
+}
+
+@media (min-width:320px) and (max-width:991.98px) /* Extra Small, Small And Medium Screen */
+{
+
+	nav.bg-light div.navbar-collapse
+	{
+
+		margin-top:30px;
+		background-color:#f0f0f0;
+		z-index:2;
+		border:1px solid #bcbaba;
+
+	}
+
+	nav.bg-light div.navbar-collapse li.nav-item{padding-left:10px}
+
+	nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a:hover {padding-left:15px}
+
+}
+
+/* End Media Query */
+
+/* End Navbar */
+
+/* Start Slider */
+
+section.slider
+{
+
+	padding:50px 0;
+	background-color:rgba(111, 66, 193, 0.1);
+	-webkit-border-radius:0 0 60%;
+	-moz-border-radius:0 0 60%;
+	-o-border-radius:0 0 60%;
+	-ms-border-radius:0 0 60%;
+	border-radius:0 0 60%;
+	height:450px;
+	overflow:hidden
+
+}
+
+section.slider div.awareness h6
+{font-size:13px;color:rgba(111, 66, 193, 0.5)}
+
+section.slider div.awareness h6, section.slider div.awareness h1{font-weight:900}
+
+section.slider div.awareness h1{color:#6f42c1}
+
+section.slider div.awareness p
+{margin-top:20px;line-height:30px}
+
+section.slider div.awareness button
+{
+
+	margin-top:30px;
+	padding:10px 20px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;
+	font-size:12px;
+	background-color:#6f42c1;
+	border:1px solid #6f42c1
+
+}
+
+section.slider div.people-image img[src="Images/illustration.png"]
+{position:relative;top:45px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/illustration.png"]
+	{top:-10px}
+
+	section.slider div.awareness button
+	{margin-top:10px}
+
+	section.slider div.awareness h1
+	{font-size:25px}
+
+	section.slider div.awareness p
+	{font-size:14px}
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) /* Small Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/illustration.png"]
+	{top:-20px}
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) /* Medium Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/illustration.png"]
+	{top:-60px}
+
+}
+
+/* End Media Query */
+
+/* End Slider */
+
+/* Start Section About Corona Virus */
+
+section.corona-virus{padding:70px 0}
+
+section.corona-virus div.video video{width:90%;height:400px}
+
+section.corona-virus div.what-it h3
+{font-weight:900;padding-top:50px;padding-bottom:20px}
+
+section.corona-virus div.what-it h3, section.corona-virus div.what-it ul.list-unstyled i
+{color:#6f42c1}
+
+section.corona-virus div.what-it p{line-height:30px}
+
+section.corona-virus div.what-it button
+{
+
+	margin-top:30px;
+	padding:10px 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+	font-size:12px;
+	background-color:#6f42c1;
+	border:1px solid #6f42c1
+
+}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.corona-virus div.what-it h3
+	{font-size:20px}
+
+	section.corona-virus div.what-it p, section.corona-virus div.what-it ul.list-unstyled li
+	{font-size:13px}
+
+}
+
+@media (min-width:320px) and (max-width:991.98px) /* Extra Small, Small And Medium Screen */
+{
+
+	section.corona-virus div.video video
+	{width:100%}
+
+}
+
+/* End Media Query */
+
+/* End Section About Corona Virus */
+
+/* Start Section About Team */
+
+section.team{padding:70px 0}
+
+section.team h3, section.team div.team-one h5, section.team div.team-two h5,
+section.team div.team-three h5{font-weight:900}
+
+section.team h3, section.team div.team-one h5, section.team div.team-two h5,
+section.team div.team-three h5, section.team ul.list-inline li.list-inline-item a
+{color:#6f42c1}
+
+section.team div.team-one img, section.team div.team-two img, section.team div.team-three img
+{
+
+	-webkit-border-radius:0 50% 0 0;
+	-moz-border-radius:0 50% 0 0;
+	-o-border-radius:0 50% 0 0;
+	-ms-border-radius:0 50% 0 0;
+	border-radius:0 50% 0 0;
+	width:70%;
+	-webkit-transition:all 1.2s ease-in-out;
+	-moz-transition:all 1.2s ease-in-out;
+	-o-transition:all 1.2s ease-in-out;
+	-ms-transition:all 1.2s ease-in-out;
+	transition:all 1.2s ease-in-out
+
+}
+
+section.team div.team-one img:hover, section.team div.team-two img:hover, section.team div.team-three img:hover
+{
+
+	-webkit-border-radius:0 0 0 0;
+	-moz-border-radius:0 0 0 0;
+	-o-border-radius:0 0 0 0;
+	-ms-border-radius:0 0 0 0;
+	border-radius:0 0 0 0;
+
+}
+
+section.team div.team-one h5, section.team div.team-two h5, section.team div.team-three h5
+{margin:20px 0}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.team h3
+	{font-size:20px}
+
+	section.team p
+	{font-size:13px}
+
+	section.team div.team-one h5, section.team div.team-two h5, section.team div.team-three h5
+	{font-size:15px}
+
+	section.team div.team-one h6, section.team div.team-two h6, section.team div.team-three h6
+	{font-size:12px}
+
+	section.team div.team-one img, section.team div.team-two img, section.team div.team-three img
+	{width:60%}
+
+}
+
+@media (min-width:576.98px) and (max-width:767.98px) /* Small Screen */
+{
+
+	section.team div.team-one img, section.team div.team-two img, section.team div.team-three img
+	{width:60%}
+
+}
+
+@media (min-width:768.98px) and (max-width:991.98px) /* Medium Screen */
+{
+
+	section.team div.team-one img, section.team div.team-two img, section.team div.team-three img
+	{width:50%}
+
+}
+
+/* End Media Query */
+
+/* End Section About Team */
+
+/* Start Section About Statistics */
+
+section.statistics{padding:70px 0}
+
+section.statistics h3, section.statistics div.statistic-one i + h4, section.statistics div.statistic-two i + h4, section.statistics div.statistic-three i + h4
+{font-weight:900}
+
+section.statistics h3, section.statistics div.statistic-one i, section.statistics div.statistic-two i, section.statistics div.statistic-three i
+{color:#6f42c1}
+
+section.statistics div.statistic-one p, section.statistics div.statistic-two p, section.statistics div.statistic-three p
+{font-size:13px;color:#AAA}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small */
+{
+
+	section.statistics h3
+	{font-size:20px}
+
+	section.statistics p
+	{font-size:13px}
+
+}
+
+/* End Media Query */
+
+/* End Section About Statistics */
+
+/* Start Section About Protect */
+
+section.protect{padding:70px 0}
+
+section.protect h3{font-weight:900;color:#6f42c1}
+
+section.protect div.should, section.protect div.avoid{margin-top:100px}
+
+section.protect div.image-protect{margin-top:30px}
+
+section.protect div.should h4, section.protect div.avoid h4{font-size:15px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.protect h6, section.protect p,
+	section.protect div.should ul.list-unstyled li.list-inline-item, section.protect div.avoid ul.list-unstyled li.list-inline-item
+	{font-size:13px}
+
+	section.protect h3
+	{font-size:20px}
+
+}
+
+@media (min-width:320px) and (max-width:991.98px) /* Extra Small, Small and Medium Screen */
+{
+
+	section.protect div.avoid
+	{margin-top:10px}
+
+}
+
+/* End Media Query */
+
+/* End Section About Protect */
+
+/* Start Footer About Footer */
+
+footer.footer{padding:70px 0}
+
+footer.footer div.about-footer h6, footer.footer div.about-footer-list h6
+{font-weight:900}
+
+footer.footer div.about-footer ul.list-inline li.list-inline-item a,
+footer.footer div.about-footer-list ul.list-unstyled li a
+{color:#6f42c1}
+
+footer.footer div.about-footer ul.list-inline li.list-inline-item a
+{margin-right:15px}
+
+footer.footer div.about-footer-list ul.list-unstyled li a
+{
+
+	line-height:35px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+
+}
+
+footer.footer div.about-footer-list ul.list-unstyled li a:hover
+{padding-left:15px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	footer.footer div.about-footer p, footer.footer div.about-footer-list ul.list-unstyled li
+	{font-size:13px}
+
+}
+
+/* End Media Query */
+
+/* End Footer About Footer */
+
+/* Start Footer About Copyright */
+
+footer.copyright{padding:20px}
+
+footer.copyright p.small i{color:#F00}
+
+footer.copyright p.small span
+{color:#6f42c1}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	footer.copyright p.small
+	{font-size:12px}
+
+}
+
+/* End Media Query */
+
+/* End Footer About Copyright */

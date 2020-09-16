@@ -1,0 +1,359 @@
+body{font-family:'mulish', arial, tahoma, serif, sans-serif, 'trebuchet ms', 'comic sans ms'}
+
+html{scroll-behavior:smooth}
+
+i[class="fas fa-arrow-alt-circle-up fa-2x"]
+{
+
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	color:#6f42c1;
+	display:none;
+	z-index:999;
+	cursor:pointer
+
+}
+
+/* Start Navbar */
+
+nav.bg-light{background-color:rgba(111, 66, 193, 0.1)!important; height:70px;}
+
+nav.fix
+{
+
+	background-color:#FFF !important;
+	z-index:999;
+	position:fixed;
+	top:0;
+	width:100%
+
+}
+
+nav.bg-light a.navbar-brand{font-size:22px}
+
+nav.bg-light button.navbar-toggler
+{border:medium none;color:#000}
+
+nav.bg-light button:focus{outline:medium none}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.active a, nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a:hover
+{color:#6f42c1}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item
+{margin-left:20px}
+
+nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a
+{
+
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	transition:all .5s ease;
+
+}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item
+	{font-size:14px}
+
+}
+
+@media (min-width:320px) and (max-width:991.98px) /* Extra Small, Small And Medium Screen */
+{
+
+	nav.bg-light div.navbar-collapse
+	{
+
+		margin-top:30px;
+		background-color:#f0f0f0;
+		z-index:2;
+		border:1px solid #bcbaba;
+
+	}
+
+	nav.bg-light div.navbar-collapse li.nav-item{padding-left:10px}
+
+	nav.bg-light div.navbar-collapse ul.navbar-nav li.nav-item a:hover {padding-left:15px}
+
+}
+
+/* End Media Query */
+
+/* End Navbar */
+
+/* Start Slider */
+
+section.slider
+{
+
+	padding:50px 0;
+	background-color:rgba(111, 66, 193, 0.1);
+	-webkit-border-radius:0 0 60%;
+	-moz-border-radius:0 0 60%;
+	-o-border-radius:0 0 60%;
+	-ms-border-radius:0 0 60%;
+	border-radius:0 0 60%;
+	height:450px;
+	overflow:hidden;
+
+}
+
+section.slider div.awareness h6{font-size:13px;color:rgba(111, 66, 193, 0.5)}
+
+section.slider div.awareness h6, section.slider div.awareness h1{font-weight:900}
+
+section.slider div.awareness h1{color:#6f42c1}
+
+section.slider div.awareness p{margin-top:20px;line-height:30px}
+
+section.slider div.awareness button
+{
+
+	margin-top:30px;
+	padding:10px 20px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;
+	font-size:12px;
+	background-color:#6f42c1;
+	border:1px solid #6f42c1
+
+}
+
+section.slider div.people-image img[src="Images/symtoms.png"]
+{position:relative;top:-50px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/symtoms.png"]
+	{top:-10px}
+
+	section.slider div.awareness button
+	{margin-top:10px}
+
+	section.slider div.awareness h1
+	{font-size:25px}
+
+	section.slider div.awareness p
+	{font-size:14px}
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) /* Small Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/symtoms.png"]
+	{top:-20px}
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) /* Medium Screen */
+{
+
+	section.slider
+	{padding:50px 0;height:500px}
+
+	section.slider div.people-image img[src="Images/symtoms.png"]
+	{top:-25px}
+
+}
+
+/* End Media Query */
+
+/* End Slider */
+
+/* Start Section About Symptoms */
+
+section.symptoms{padding:70px 0;background-color:rgba(111, 66, 193, 0.05)}
+
+section.symptoms h3
+{font-weight:900}
+
+section.symptoms h3, section.symptoms div.symptom-one h6, section.symptoms div.symptom-two h6,
+section.symptoms div.symptom-three h6, section.symptoms div.symptom-four h6, section.symptoms div.call p span
+{color:#6f42c1}
+
+section.symptoms div.symptom-one, section.symptoms div.symptom-two, section.symptoms div.symptom-three, section.symptoms div.symptom-four
+{
+
+	display:flex;
+	align-items:center;
+	padding:20px;
+	background-color:#FFF;
+	height:200px;
+	margin:40px 0 0;
+	-webkit-box-shadow:15px 15px 10px #CCC;
+	-moz-box-shadow:15px 15px 10px #CCC;
+	-o-box-shadow:15px 15px 10px #CCC;
+	-ms-box-shadow:15px 15px 10px #CCC;
+	box-shadow:15px 15px 10px #CCC;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	transition:all 1s ease
+
+}
+
+section.symptoms div.symptom-one, section.symptoms div.symptom-two, section.symptoms div.symptom-three,
+section.symptoms div.symptom-four, section.symptoms div.call-button button
+{border:1px solid #6f42c1}
+
+section.symptoms div.symptom-one:hover, section.symptoms div.symptom-two:hover, section.symptoms div.symptom-three:hover, section.symptoms div.symptom-four:hover
+{
+
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow:none;
+	-ms-box-shadow:none;
+	box-shadow:none
+
+}
+
+section.symptoms div.call-button button
+{
+
+	padding:10px 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+	font-size:12px;
+	background-color:#6f42c1;
+
+}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.symptoms h3
+	{font-size:20px}
+
+	section.symptoms p
+	{font-size:13px}
+
+}
+
+/* End Media Query */
+
+/* End Section About Symptoms */
+
+/* Start Section About Protect */
+
+section.protect{padding:70px 0}
+
+section.protect h3{font-weight:900;color:#6f42c1}
+
+section.protect div.should, section.protect div.avoid{margin-top:100px}
+
+section.protect div.image-protect{margin-top:30px}
+
+section.protect div.should h4, section.protect div.avoid h4{font-size:15px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	section.protect h6, section.protect p,
+	section.protect div.should ul.list-unstyled li.list-inline-item, section.protect div.avoid ul.list-unstyled li.list-inline-item
+	{font-size:13px}
+
+	section.protect h3
+	{font-size:20px}
+
+}
+
+@media (min-width:320px) and (max-width:991.98px) /* Extra Small, Small and Medium Screen */
+{
+
+	section.protect div.avoid
+	{margin-top:10px}
+
+}
+
+/* End Media Query */
+
+/* End Section About Protect */
+
+/* Start Footer About Footer */
+
+footer.footer{padding:70px 0}
+
+footer.footer div.about-footer h6, footer.footer div.about-footer-list h6
+{font-weight:900}
+
+footer.footer div.about-footer ul.list-inline li.list-inline-item a,
+footer.footer div.about-footer-list ul.list-unstyled li a
+{color:#6f42c1}
+
+footer.footer div.about-footer ul.list-inline li.list-inline-item a
+{margin-right:15px}
+
+footer.footer div.about-footer-list ul.list-unstyled li a
+{
+
+	line-height:35px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+
+}
+
+footer.footer div.about-footer-list ul.list-unstyled li a:hover
+{padding-left:15px}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	footer.footer div.about-footer p, footer.footer div.about-footer-list ul.list-unstyled li
+	{font-size:13px}
+
+}
+
+/* End Media Query */
+
+/* End Footer About Footer */
+
+/* Start Footer About Copyright */
+
+footer.copyright{padding:20px}
+
+footer.copyright p.small i{color:#F00}
+
+footer.copyright p.small span
+{color:#6f42c1}
+
+/* Start Media Query */
+
+@media (max-width:575.98px) /* Extra Small Screen */
+{
+
+	footer.copyright p.small
+	{font-size:12px}
+
+}
+
+/* End Media Query */
+
+/* End Footer About Copyright */
